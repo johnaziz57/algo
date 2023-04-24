@@ -7,7 +7,7 @@ class ListNode(var `val`: Int) {
     var next: ListNode? = null
 }
 
-class Solution {
+class AddTwoNumbers {
     fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
         var currentL1Node: ListNode? = l1
         var currentL2Node: ListNode? = l2
@@ -34,7 +34,7 @@ class Solution {
 }
 
 fun main(args: Array<String>) {
-    val solution = Solution()
+    val solution = AddTwoNumbers()
     val l1_0 = ListNode(2)
     val l1_1 = ListNode(4)
     l1_0.next = l1_1
