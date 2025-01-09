@@ -1,7 +1,7 @@
 package leetcode
 
 
-class Solution {
+class TwoSum {
     fun twoSum(nums: IntArray, target: Int): IntArray {
         val map = mutableMapOf<Int, Int>()
         nums.forEachIndexed { index, i ->
@@ -22,7 +22,7 @@ class Solution {
     }
 }
 fun main(args: Array<String>) {
-    val solution = Solution()
+    val solution = TwoSum()
     println(solution.twoSum(intArrayOf(2, 7, 11, 15), 9).contentToString())
     println(solution.twoSum(intArrayOf(3,2,4), 6).contentToString())
     println(solution.twoSum(intArrayOf(3,3), 6).contentToString())

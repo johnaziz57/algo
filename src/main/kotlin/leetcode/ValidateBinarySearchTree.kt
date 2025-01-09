@@ -1,5 +1,7 @@
 package leetcode
 
+import leetcode.utils.TreeNode
+
 /**
  * https://leetcode.com/problems/validate-binary-search-tree/
  */
@@ -30,7 +32,4 @@ class ValidateBinarySearchTree {
     }
 }
 
-  class TreeNode(var `val`: Int) {
-      var left: TreeNode? = null
-      var right: TreeNode? = null
-  }
+

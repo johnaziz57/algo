@@ -1,11 +1,11 @@
 package leetcode
 
+import leetcode.utils.ListNode
+
 /**
  * https://leetcode.com/problems/add-two-numbers/
  */
-class ListNode(var `val`: Int) {
-    var next: ListNode? = null
-}
+
 
 class AddTwoNumbers {
     fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
